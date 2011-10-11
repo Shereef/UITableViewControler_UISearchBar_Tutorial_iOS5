@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96E3229314444C84002BEDBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E3229214444C84002BEDBF /* UIKit.framework */; };
+		96E3229514444C84002BEDBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E3229414444C84002BEDBF /* Foundation.framework */; };
+		96E3229714444C84002BEDBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E3229614444C84002BEDBF /* CoreGraphics.framework */; };
+		96E3229D14444C84002BEDBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96E3229B14444C84002BEDBF /* InfoPlist.strings */; };
+		96E3229F14444C84002BEDBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E3229E14444C84002BEDBF /* main.m */; };
+		96E322A314444C84002BEDBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E322A214444C84002BEDBF /* AppDelegate.m */; };
+		96E322A614444C84002BEDBF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E322A414444C84002BEDBF /* MainStoryboard_iPhone.storyboard */; };
+		96E322A914444C84002BEDBF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E322A714444C84002BEDBF /* MainStoryboard_iPad.storyboard */; };
+		96E322AC14444C84002BEDBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E322AB14444C84002BEDBF /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96E3228E14444C84002BEDBF /* MySearchScreenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySearchScreenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E3229214444C84002BEDBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96E3229414444C84002BEDBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96E3229614444C84002BEDBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96E3229A14444C84002BEDBF /* MySearchScreenApp-Info.plist */ = {isa = PBXFileReference; path = "MySearchScreenApp-Info.plist"; sourceTree = "<group>"; };
+		96E3229C14444C84002BEDBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96E3229E14444C84002BEDBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96E322A014444C84002BEDBF /* MySearchScreenApp-Prefix.pch */ = {isa = PBXFileReference; path = "MySearchScreenApp-Prefix.pch"; sourceTree = "<group>"; };
+		96E322A114444C84002BEDBF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		96E322A214444C84002BEDBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96E322A514444C84002BEDBF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		96E322A814444C84002BEDBF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		96E322AA14444C84002BEDBF /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		96E322AB14444C84002BEDBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96E3228B14444C84002BEDBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E3229314444C84002BEDBF /* UIKit.framework in Frameworks */,
+				96E3229514444C84002BEDBF /* Foundation.framework in Frameworks */,
+				96E3229714444C84002BEDBF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96E3228314444C84002BEDBF = {
+			isa = PBXGroup;
+			children = (
+				96E3229814444C84002BEDBF /* MySearchScreenApp */,
+				96E3229114444C84002BEDBF /* Frameworks */,
+				96E3228F14444C84002BEDBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96E3228F14444C84002BEDBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96E3228E14444C84002BEDBF /* MySearchScreenApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96E3229114444C84002BEDBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96E3229214444C84002BEDBF /* UIKit.framework */,
+				96E3229414444C84002BEDBF /* Foundation.framework */,
+				96E3229614444C84002BEDBF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96E3229814444C84002BEDBF /* MySearchScreenApp */ = {
+			isa = PBXGroup;
+			children = (
+				96E322A114444C84002BEDBF /* AppDelegate.h */,
+				96E322A214444C84002BEDBF /* AppDelegate.m */,
+				96E322A414444C84002BEDBF /* MainStoryboard_iPhone.storyboard */,
+				96E322A714444C84002BEDBF /* MainStoryboard_iPad.storyboard */,
+				96E322AA14444C84002BEDBF /* ViewController.h */,
+				96E322AB14444C84002BEDBF /* ViewController.m */,
+				96E3229914444C84002BEDBF /* Supporting Files */,
+			);
+			path = MySearchScreenApp;
+			sourceTree = "<group>";
+		};
+		96E3229914444C84002BEDBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96E3229A14444C84002BEDBF /* MySearchScreenApp-Info.plist */,
+				96E3229B14444C84002BEDBF /* InfoPlist.strings */,
+				96E3229E14444C84002BEDBF /* main.m */,
+				96E322A014444C84002BEDBF /* MySearchScreenApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96E3228D14444C84002BEDBF /* MySearchScreenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E322AF14444C84002BEDBF /* Build configuration list for PBXNativeTarget "MySearchScreenApp" */;
+			buildPhases = (
+				96E3228A14444C84002BEDBF /* Sources */,
+				96E3228B14444C84002BEDBF /* Frameworks */,
+				96E3228C14444C84002BEDBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySearchScreenApp;
+			productName = MySearchScreenApp;
+			productReference = 96E3228E14444C84002BEDBF /* MySearchScreenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96E3228514444C84002BEDBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 96E3228814444C84002BEDBF /* Build configuration list for PBXProject "MySearchScreenApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96E3228314444C84002BEDBF;
+			productRefGroup = 96E3228F14444C84002BEDBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96E3228D14444C84002BEDBF /* MySearchScreenApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96E3228C14444C84002BEDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E3229D14444C84002BEDBF /* InfoPlist.strings in Resources */,
+				96E322A614444C84002BEDBF /* MainStoryboard_iPhone.storyboard in Resources */,
+				96E322A914444C84002BEDBF /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96E3228A14444C84002BEDBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E3229F14444C84002BEDBF /* main.m in Sources */,
+				96E322A314444C84002BEDBF /* AppDelegate.m in Sources */,
+				96E322AC14444C84002BEDBF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96E3229B14444C84002BEDBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E3229C14444C84002BEDBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96E322A414444C84002BEDBF /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E322A514444C84002BEDBF /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		96E322A714444C84002BEDBF /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96E322A814444C84002BEDBF /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96E322AD14444C84002BEDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96E322AE14444C84002BEDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96E322B014444C84002BEDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySearchScreenApp/MySearchScreenApp-Prefix.pch";
+				INFOPLIST_FILE = "MySearchScreenApp/MySearchScreenApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96E322B114444C84002BEDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySearchScreenApp/MySearchScreenApp-Prefix.pch";
+				INFOPLIST_FILE = "MySearchScreenApp/MySearchScreenApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96E3228814444C84002BEDBF /* Build configuration list for PBXProject "MySearchScreenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E322AD14444C84002BEDBF /* Debug */,
+				96E322AE14444C84002BEDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E322AF14444C84002BEDBF /* Build configuration list for PBXNativeTarget "MySearchScreenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E322B014444C84002BEDBF /* Debug */,
+				96E322B114444C84002BEDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96E3228514444C84002BEDBF /* Project object */;
+}
